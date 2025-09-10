@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unified-4p-agent"
+version = "0.1.0"
+description = "Minimal Unified-4P Agent (Transformer + Seq2Seq + MCTS + Info Theory)"
+authors = [{name="DeFiant Ventures"}]
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = [""]
+include = ["agent_core*", "planner*", "monitor*", "memory*", "server*", "tools*"]
