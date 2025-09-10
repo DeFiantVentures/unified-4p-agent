@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+.build/
+
+# Environments
+.venv/
+.env
+
+# OS
+.DS_Store
+
+# Tooling
+/.pytest_cache/
+/coverage/
